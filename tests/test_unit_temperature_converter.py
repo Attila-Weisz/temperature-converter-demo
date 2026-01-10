@@ -9,6 +9,7 @@ class TestTemperatureConverterUnit:
     """
     def test_celsius_to_fahrenheit(self):
         assert TemperatureConverter.celsius_to_fahrenheit(0.0) == pytest.approx(32.0)
+        # assert TemperatureConverter.celsius_to_fahrenheit(0.0) == pytest.approx(92.0)
         assert TemperatureConverter.celsius_to_fahrenheit(100.0) == pytest.approx(212.0)
 
     def test_celsius_to_kelvin(self):
